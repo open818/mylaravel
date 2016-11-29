@@ -44,6 +44,4 @@
     </div>
 </header>
 
-<div style="background: #354875 url({{asset("modules/1/example/home-bg.jpg")}}) 50% 0 no-repeat;  height: 1500px">
-
-</div>
+<div style="background: #354875 url({{asset("modules/1/example/home-bg.jpg")}}) 50% 0 no-repeat;  height: 1500px"></div>

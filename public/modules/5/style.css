@@ -1,0 +1,14 @@
+.m-services {
+  background: #ffffcc;
+  padding: 40px 0 40px 0;
+}
+
+.m-services .am-container {
+  max-width: 1200px;
+}
+
+.m-services p {
+  margin: 0 0 20px 0;
+  font-size: 14px;
+  color: #737b8a;
+}
