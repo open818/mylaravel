@@ -75,10 +75,17 @@
     <div class="nav-navicon admin-main admin-sidebar">
         <div class="sideMenu am-icon-dashboard" style="color:#aeb2b7; margin: 10px 0 0 0;"> 欢迎系统管理员：清风抚雪</div>
         <div class="sideMenu">
+            <h3 class="am-icon-flag"><em></em> <a href="#">模板管理</a></h3>
+            <ul>
+                <li><a href="/module/index">模板列表</a></li>
+                <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>添加新模板</li>
+                <li>模板分类</li>
+            </ul>
+
             <h3 class="am-icon-flag"><em></em> <a href="#">商品管理</a></h3>
             <ul>
-                <li><a href="">商品列表</a></li>
-                <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>添加新商品</li>
+                <li><a href="/list">商品列表</a></li>
+                <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'><a href="/add">添加新商品</a></li>
                 <li>商品分类</li>
                 <li>用户评论</li>
                 <li>商品回收站</li>
@@ -109,7 +116,7 @@
                 <li>微信</li>
                 <li>客服</li>
             </ul>
-            <h3 class="am-icon-gears"><em></em> <a href="#">系统设置</a></h3>
+            <h3 class="am-icon-gears"><em></em> <a href="/config">系统设置</a></h3>
             <ul>
                 <li>数据备份</li>
                 <li>邮件/短信管理</li>

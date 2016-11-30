@@ -38,6 +38,15 @@
 <script src="{{ asset("/bower_components/jquery/dist/jquery.min.js")}}"></script>
 <script src="{{ asset("/bower_components/amazeui/dist/js/amazeui.min.js")}}"></script>
 <!--<![endif]-->
+<script src="{{ asset("/js/echo.min.js")}}"></script>
+<script>
+    echo.init({
+        offset: 100,
+        throttle: 250,
+        unload: false,
+    });
+    // 图片赖加载
+</script>
 <script src="{{ asset($module_path."app.js")}}"></script>
 
 </body>

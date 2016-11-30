@@ -40,7 +40,8 @@
 .admin-offcanvas-bar:after{content: none}
 }
 
-@media only screen and (max-width: 640px){.admin-sidebar{width: inherit}
+@media only screen and (max-width: 640px){
+.admin-sidebar{display: block;position: fixed;}
 .admin-offcanvas-bar{background: #f3f3f3}
 .admin-offcanvas-bar:after{background: #BABABA}
 .admin-sidebar-list a:hover, .admin-sidebar-list a:active{-webkit-transition: background-color .3s ease;-moz-transition: background-color .3s ease;-ms-transition: background-color .3s ease;-o-transition: background-color .3s ease;transition: background-color .3s ease;background: #E4E4E4}

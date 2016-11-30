@@ -28,3 +28,11 @@ Route::get('/preview/{base_id}', 'ModuleController@preview');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+Route::get('/list', 'HomeController@getList');
+Route::get('/add', 'HomeController@add');
+Route::get('/config', 'HomeController@config');
+
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/module/index', 'ModuleController@index');
+});
+

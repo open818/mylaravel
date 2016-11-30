@@ -1,0 +1,18 @@
+.m-footer {
+  background: #0d121b;
+  font-size: 14px;
+  padding: 30px 0;
+  color: #F8F7F7;
+}
+
+.m-footer .am-container {
+  max-width: 1200px;
+}
+
+.m-footer a {
+  color: #F8F7F7;
+}
+
+.m-footer a:hover {
+  color: #d22e3e;
+}
